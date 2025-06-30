@@ -55,3 +55,52 @@ body {
   color: #333;
 }
 
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .profile-container {
+    width: 90px;
+    height: 90px;
+  }
+
+  .profile-pic {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+
+  .project-card,
+  .contact-card {
+    padding: 1rem;
+  }
+
+  .project-links a {
+    font-size: 0.8rem;
+    padding: 0.35rem 0.9rem;
+  }
+}
+

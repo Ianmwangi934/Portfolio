@@ -1,0 +1,56 @@
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #6c63ff, #8ed1fc);
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero .highlight {
+    color: #ffeb3b;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-btn {
+    padding: 12px 24px;
+    background-color: white;
+    color: #333;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .hero-btn:hover {
+    background-color: #eee;
+  }
+  .profile-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ffffff; /* or any soft accent */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 1.5rem; /* centers and adds spacing */
+  }
+  
+  .profile-pic {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #eee;
+  }
+  
+  
+  

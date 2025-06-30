@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+/* Global Layout Centering */
+.app-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+}
+

@@ -4,20 +4,18 @@ import "./Projects.css";
 const projects = [
   {
     title: "E-Commerce Store",
-    description:
-      "A full-stack fashion e-commerce app with product upload, cart, search, and checkout. Built using Django & React.",
+    description: "A full-stack fashion e-commerce app with product upload, cart, search, and checkout. Built using Django & React.",
     tech: "Django, React, PostgreSQL, REST API, Vercel",
     image: "/project-thumbnails/ecommerce.png",
     links: {
-      live: "https://fashion-marketplace-q8gm.vercel.app",
+      live: "https://fashion-marketplace-q8gm.vercel.app",     // Replace with actual link
       github: "https://github.com/Ianmwangi934/Fashion_market",
       demo: "https://youtu.be/TAi_iLruJwM?si=1yjKnZQ5dYLcP2cV"
     }
   },
   {
     title: "Trip Planner",
-    description:
-      "A travel planning app that fetches routes, calculates fuel stops and total cost, using real-world location data.",
+    description: "A travel planning app that fetches routes, calculates fuel stops and total cost, using real-world location data.",
     tech: "Django REST Framework, Google Maps API",
     links: {
       github: "https://github.com/Ianmwangi934/Tripplanner",
@@ -26,8 +24,7 @@ const projects = [
   },
   {
     title: "Ticket System",
-    description:
-      "A real-time support system for handling customer inquiries. Includes role-based access, messaging, notifications, and ticket management.",
+    description: "A real-time support system for handling customer inquiries. Includes role-based access, messaging, notifications, and ticket management.",
     tech: "Django, Django Channels, WebSockets, React, PostgreSQL",
     links: {
       github: "https://github.com/Ianmwangi934/Blogpost"
@@ -54,14 +51,11 @@ const Projects = () => {
             <p>
               <strong>Tech Stack:</strong> {project.tech}
             </p>
+
             {project.links && (
               <div className="project-links">
                 {project.links.live && (
-                  <a
-                    href={project.links.live}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a href={project.links.live} target="_blank" rel="noreferrer">
                     Live Site
                   </a>
                 )}

@@ -18,7 +18,8 @@ const projects = [
     description: "A travel planning app that fetches routes, calculates fuel stops and total cost, using real-world location data.",
     tech: "Django REST Framework, Google Maps API",
     links: {
-      github: "https://github.com/Ianmwangi934/Tripplanner"
+      github: "https://github.com/Ianmwangi934/Tripplanner",
+      demo: "https://www.youtube.com/watch?v=fh9-VgRehVM"
     }
   },
   {

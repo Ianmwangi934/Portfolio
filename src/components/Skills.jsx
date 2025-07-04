@@ -9,6 +9,11 @@ const skills = [
   "REST APIs",
   "API Integration",
   "Cybersecurity",
+  "Linux(Parrot OS & Kali)",
+  "Python",
+  "JavaScript",
+  "Networking",
+  "CI/CD pipeline(vercel,Render,Containerization)"
 ];
 
 const Skills = () => {

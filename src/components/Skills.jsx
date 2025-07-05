@@ -13,7 +13,9 @@ const skills = [
   "Python",
   "JavaScript",
   "Networking",
-  "CI/CD pipeline(vercel,Render,Containerization)"
+  "CI/CD pipeline(vercel,Render,Containerization)",
+  "Third Party Integration",
+  "CRM(zoho,SalesForce)"
 ];
 
 const Skills = () => {

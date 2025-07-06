@@ -27,7 +27,8 @@ const projects = [
     description: "A real-time support system for handling customer inquiries. Includes role-based access, messaging, notifications, and ticket management.",
     tech: "Django, Django Channels, WebSockets, React, PostgreSQL",
     links: {
-      github: "https://github.com/Ianmwangi934/Blogpost"
+      github: "https://github.com/Ianmwangi934/Blogpost",
+      demo: "https://youtu.be/R8jo6G-zYQQ"
     }
   }
 ];

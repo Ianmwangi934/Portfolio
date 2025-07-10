@@ -15,7 +15,8 @@ const skills = [
   "Networking",
   "CI/CD pipeline(vercel,Render)",
   "Third Party Integration",
-  "CRM(zoho,SalesForce)"
+  "CRM(zoho,SalesForce)",
+  "Git/Github"
 ];
 
 const Skills = () => {

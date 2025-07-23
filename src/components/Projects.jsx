@@ -5,7 +5,7 @@ const projects = [
   {
     title: "E-Commerce Store",
     description: "A full-stack fashion e-commerce app with product upload, cart, search, and checkout. Built using Django & React.",
-    tech: "Django, React, PostgreSQL, REST API, Vercel",
+    tech: "Django, React, PostgreSQL, REST API, Vercel,CRM for LEAD management(zoho)",
     image: "/project-thumbnails/ecommerce.png",
     links: {
       live: "",     // Replace with actual link

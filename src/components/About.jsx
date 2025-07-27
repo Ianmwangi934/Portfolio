@@ -15,7 +15,7 @@ const About = () => {
       <p>
         I began studying Cybersecurity and Digital Forensics at Meru University of Science and Technology. 
         Although I couldn't complete my degree due to financial challenges, the program laid a solid foundation in secure systems and digital risk awareness.
-        Even while working full-time as a Customer Service Coordinator in Dubai, I remained committed to tech-learning, coding, and building in my free time.
+        Even while working full-time as a Customer Service Coordinator in Dubai, I remained committed to tech-learning by getting expossed to real world tech related duties , coding, and building in my free time.
       </p>
 
       <p>

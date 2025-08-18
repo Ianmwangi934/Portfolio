@@ -9,7 +9,7 @@ const projects = [
     image: "/project-thumbnails/ecommerce.png",
     links: {
       live: "",     // Replace with actual link
-      github: "https://github.com/Ianmwangi934/Fashion_market",
+      github: "https://github.com/Ianmwangi934/Fashion_marketplace",
       demo: "https://youtu.be/TAi_iLruJwM?si=1yjKnZQ5dYLcP2cV"
     }
   },

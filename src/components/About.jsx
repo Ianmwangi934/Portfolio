@@ -7,7 +7,7 @@ const About = () => {
       <h2>About Me</h2>
 
       <p>
-        I'm <strong>Ian Murigu</strong>, a motivated <strong>Full-Stack Web Developer</strong> and <strong>Cybersecurity Enthusiast</strong> based in Kenya. 
+        I'm <strong>Ian Murigu</strong>, a motivated <strong>Full-Stack Web Developer</strong> and <strong>Cybersecurity Enthusiast</strong> based in Kuwait. 
         I specialize in building secure, scalable, and user-focused web applications using <strong>Django</strong>, <strong>Django REST Framework</strong>, <strong>React</strong>, and <strong>JavaScript</strong>.
         My mission is to create solutions that automate workflows, simplify processes, and drive business growth.
       </p>

@@ -33,8 +33,8 @@
     background-color: #eee;
   }
   .profile-container {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 1200px;
     border-radius: 50%;
     background-color: #ffffff; /* or any soft accent */
     display: flex;

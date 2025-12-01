@@ -21,7 +21,7 @@ const About = () => {
       <p>
         Professionally, I've worked in roles that required both technical and user-centered thinking. As a Customer Service Coordinator in Dubai,
         I regularly collaborated with developers and IT teams, troubleshot web-based tools, reproduced bugs, and maintained technical documentation.
-        This experience strengthened my communication, empathy, and analytical skills — qualities I bring into every product I build today.
+        This experience strengthened my communication, empathy, and analytical skills - qualities I bring into every product I build today.
       </p>
       <p>
         I've developed full-stack applications featuring authentication (JWT & session-based), role-based access control, CRM integrations (Salesforce, Zoho),

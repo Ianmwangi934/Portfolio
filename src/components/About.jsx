@@ -35,7 +35,6 @@ const About = () => {
       <p>
         I'm growing my DevOps skillset, with hands-on experience in Linux, Docker, GitHub Actions, and cloud deployment, and I continue to strengthen my understanding of scalable
         infrastructure.
-        Outside of tech, I enjoy reading psychology and business books such as The Psychology of Money and Rich Dad Poor Dad, which help me stay grounded, focused, and growth-oriented.
       </p>
 
       <p>

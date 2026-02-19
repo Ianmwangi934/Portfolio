@@ -8,7 +8,7 @@ const projects = [
     tech: "Django, React, PostgreSQL, REST API, Vercel,CRM for LEAD management(zoho)",
     image: "/project-thumbnails/ecommerce.png",
     links: {
-      live: "",     // Replace with actual link
+      live: "",     
       github: "https://github.com/Ianmwangi934/Fashion_marketplace",
       demo: "https://youtu.be/TAi_iLruJwM?si=1yjKnZQ5dYLcP2cV"
     }
@@ -30,7 +30,17 @@ const projects = [
       github: "https://github.com/Ianmwangi934/Blogpost",
       demo: "https://youtu.be/R8jo6G-zYQQ"
     }
+  },
+  {
+  title: "SupportGenius - Real-Time Customer Support System",
+  description: "Real-time customer support platform with live chat, role-based authentication, and WebSocket-powered messaging.",
+  tech: "Django REST Framework, Django Channels, WebSockets (ASGI), React PostgreSQL,JWT Authentication, Redis (Channel Layer), Axios",
+  links: {
+    github: "https://github.com/Ianmwangi934/SupportGeniusAI",
+    demo: "https://youtu.be/xx-0H6b700I"
   }
+}
+
 ];
 
 const Projects = () => {

@@ -1,63 +1,80 @@
 .hero {
-    text-align: center;
-    padding: 100px 20px;
-    background: linear-gradient(135deg, #6c63ff, #8ed1fc);
-    color: white;
-  }
-  
-  .hero h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-  
-  .hero .highlight {
-    color: #ffeb3b;
-  }
-  
-  .hero p {
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
-  }
-  
-  .hero-btn {
-    padding: 12px 24px;
-    background-color: white;
-    color: #333;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s;
-  }
-  
-  .hero-btn:hover {
-    background-color: #eee;
-  }
-  .profile-container {
-    width: 120px;
-    height: 1200px;
-    border-radius: 50%;
-    background-color: #ffffff; /* or any soft accent */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    margin: 0 auto 1.5rem; /* centers and adds spacing */
-  }
-  
-  .profile-pic {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid #eee;
-  }
-  .hero-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 1rem;
-  }
-  
-  
-  
+  padding: 120px 40px;
+  background: linear-gradient(135deg, #5f72be, #9b23ea);
+  color: white;
+}
+
+.hero-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.hero-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.hero-role {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  opacity: 0.95;
+}
+
+.highlight {
+  color: #ffd700;
+}
+
+.hero-description {
+  max-width: 550px;
+  line-height: 1.6;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.hero-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-btn {
+  padding: 0.7rem 1.6rem;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.primary-btn {
+  background: #ffd700;
+  color: #111;
+}
+
+.primary-btn:hover {
+  background: white;
+  color: black;
+}
+
+.secondary-btn {
+  border: 2px solid white;
+  color: white;
+}
+
+.secondary-btn:hover {
+  background: white;
+  color: #111;
+}

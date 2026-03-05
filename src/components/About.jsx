@@ -7,39 +7,31 @@ const About = () => {
       <h2>About Me</h2>
 
       <p>
-        I'm <strong>Ian Murigu</strong>, a motivated <strong>Full-Stack Engineer</strong> and <strong>Cybersecurity Enthusiast</strong> originally from Kenya and currently based in Kuwait. 
-        I specialize in building secure, scalable, and user-focused  applications using <strong>Django</strong>, <strong>Django REST Framework</strong>, <strong>React</strong>, and <strong>JavaScript</strong>.
-        My mission is to design solutions that automate workflows, simplify processes, and drive real business impact.
+        I'm <strong>Ian Mwangi Murigu</strong>, a <strong>backend-focused Full-Stack Engineer</strong> specializing in building 
+        secure, scalable web applications using <strong>Django,Django REST Framework, and React.</strong>
+      </p>
+      
+      <p>
+        I design systems that <strong>automate workflows</strong>, manage <strong>real-time communication</strong>, integrate third-party APIs 
+        (Twilio, SendGrid, Salesforce, Zoho),and implement robust authentication using <strong>JWT and role-based access control</strong>. My 
+        focus is building backend architectures that are clean, efficient, and production-ready.
       </p>
 
       <p>
-        My tech journey blends both engineering and cybersecurity. I studied Cybersecurity and Digital Forensics at Meru University 
-        of Science and Technology, which gave me a strong foundation in secure systems, digital risk awareness, networking, and system
-        architecture. Over time, I deepened these skills through hands-on development, problem-solving, and building real-world projects.
-      </p>
-
-      <p>
-        Professionally, I've worked in roles that required both technical and user-centered thinking. As a Customer Service Coordinator in Dubai,
-        I regularly collaborated with developers and IT teams, troubleshot web-based tools, reproduced bugs, and maintained technical documentation.
-        This experience strengthened my communication, empathy, and analytical skills - qualities I bring into every product I build today.
+        With a foundation in <strong>Cybersecurity and Digital Forensics</strong>, I approach development with a <strong>security-first mindset</strong>
+        - ensuring data protection,proper access control, and system reliability.
       </p>
       <p>
-        I've developed full-stack applications featuring authentication (JWT & session-based), role-based access control, CRM integrations (Salesforce, Zoho),
-        real-time communication features, and API integrations using tools like Twilio and SendGrid. I'm also comfortable deploying applications using platforms 
-        like Render, Vercel, Railway, and working with CI/CD workflows.
+        Previously, I worked as a Customer Service Coordinator in Dubai, where I collaborated closely with engineering teams, reproduced technical 
+        issues, documented bugs, and supported web-based systems. This experience strengthened my ability to <strong>bridge technical execution with
+        real user needs</strong>.
       </p>
       <p>
-        Beyond development, I'm passionate about using AI tools to speed up workflows, improve decision-making, and enhance automation. I frequently leverage AI for code
-        optimization, data enrichment, API integrations, and building smarter, more efficient features for web applications.
+        I have hands-on experience deploying applications to <strong>Render, Vercel, and Railway,</strong> working with <strong>Docker, GitHub Actions, 
+        and Linux environments</strong>.I am continuously expanding my DevOps knowledge to build and maintain scalable infrastructure.
       </p>
       <p>
-        I'm growing my DevOps skillset, with hands-on experience in Linux, Docker, GitHub Actions, and cloud deployment, and I continue to strengthen my understanding of scalable
-        infrastructure.
-      </p>
-
-      <p>
-        Outside of tech, I enjoy reading psychology and business books like <em>The Psychology of Money</em> and <em>Rich Dad Poor Dad</em>, which keep me grounded and growth-oriented.
-        I'm currently open to <strong>freelance, remote, or hybrid opportunities</strong> where I can collaborate with passionate teams and continue evolving as both a developer and entrepreneur.
+        I'm currently open to <strong>backend or full-stack roles</strong> where I can contribute to building impactful, secure, and high-performance systems.
       </p>
     </section>
   );

@@ -3,7 +3,8 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <div className="container">
+        <section className="hero">
       <div className="hero-content">
         <img src="/pic2.jpeg" alt="Ian Mwangi Murigu" className="hero-img" />
 
@@ -33,6 +34,9 @@ const Hero = () => {
         </div>
       </div>
     </section>
+
+    </div>
+    
   );
 };
 

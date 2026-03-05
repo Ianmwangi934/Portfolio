@@ -3,9 +3,9 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div className="container">
         <section className="hero">
-      <div className="hero-content">
+            <div className="container">
+                <div className="hero-content">
         <img src="/pic2.jpeg" alt="Ian Mwangi Murigu" className="hero-img" />
 
         <div className="hero-text">
@@ -33,9 +33,11 @@ const Hero = () => {
           </div>
         </div>
       </div>
+            </div>
+      
     </section>
 
-    </div>
+    
     
   );
 };

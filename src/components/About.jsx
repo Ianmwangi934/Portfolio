@@ -3,9 +3,9 @@ import './About.css';
 
 const About = () => {
   return (
-    <div className="container">
     <section className="about" id="about">
-      <h2>About Me</h2>
+      <div className="container">
+        <h2>About Me</h2>
 
       <p>
         I'm <strong>Ian Mwangi Murigu</strong>, a <strong>backend-focused Full-Stack Engineer</strong> specializing in building 
@@ -34,8 +34,12 @@ const About = () => {
       <p>
         I'm currently open to <strong>backend or full-stack roles</strong> where I can contribute to building impactful, secure, and high-performance systems.
       </p>
+      </div>
     </section>
-    </div>
+
+      
+      
+    
   );
 };
 

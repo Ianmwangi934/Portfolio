@@ -15,7 +15,7 @@ const Hero = () => {
           </h1>
 
           <h2 className="hero-role">
-            Full-Stack Engineer <span className="highlight">(Backend Strong)</span>
+            Full-Stack Engineer <span className="highlight">(Django, DRF, React)</span>
           </h2>
 
           <p className="hero-description">

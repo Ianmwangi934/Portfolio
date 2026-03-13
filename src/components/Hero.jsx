@@ -25,7 +25,7 @@ const Hero = () => {
 
           <div className="hero-buttons">
             <a href="#projects" className="hero-btn primary-btn">
-              View Projects
+              View My Products
             </a>
 
             <a href="#contact" className="hero-btn secondary-btn">

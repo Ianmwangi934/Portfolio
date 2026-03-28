@@ -20,7 +20,7 @@ const skills = {
     "Docker",
     "Git",
     "GitHub",
-    "CI/CD (Vercel, Render)"
+    "CI/CD (Vercel, Render,GCP)"
   ],
   Integrations: [
     "API Integration",

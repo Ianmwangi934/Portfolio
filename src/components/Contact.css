@@ -1,13 +1,13 @@
 .contact {
   padding: 100px 40px;
-  background: #f9f9f9;
+  background: linear-gradient(to bottom, #f9f9f9, #fff3e6);
   text-align: center;
 }
 
 .contact h2 {
   font-size: 2.4rem;
   margin-bottom: 1rem;
-  color: #111;
+  color: #9B23EA;
 }
 
 .contact p {
@@ -26,24 +26,27 @@
 
 .contact-card {
   background: white;
-  padding: 1.5rem;
+  padding: 1.6rem;
   border-radius: 16px;
   text-decoration: none;
   color: #111;
   font-weight: 600;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.05);
   transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
+  border-top: 4px solid #FFB347;
 }
 
 .contact-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.1);
+  transform: translateY(-8px);
+  box-shadow: 0 18px 35px rgba(0,0,0,0.1);
+  border-top: 4px solid #9B23EA;
 }
 
 .contact-icon {
-  font-size: 1.8rem;
+  font-size: 2rem;
+  color: #9B23EA;
 }

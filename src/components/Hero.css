@@ -78,3 +78,9 @@
   background: white;
   color: #111;
 }
+
+.primary-btn {
+  background: #ffd700;
+  color: #111;
+  box-shadow: 0 5px 20px rgba(255, 215, 0, 0.4);
+}

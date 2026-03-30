@@ -1,21 +1,33 @@
 .about {
-  padding: 60px 20px;
-  background-color: #f9f9f9;
+  padding: 100px 40px;
+  background: linear-gradient(to bottom, #ffffff, #f3f4ff);
   color: #333;
   text-align: center;
 }
 
 .about h2 {
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
-  color: #222;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  color: #6C63FF;
+  font-weight: 700;
 }
 
 .about p {
-  font-size: 1.1rem;
-  margin-bottom: 1.2rem;
-  max-width: 800px;
+  font-size: 1.05rem;
+  margin-bottom: 1.3rem;
+  max-width: 850px;
   margin-left: auto;
   margin-right: auto;
-  line-height: 1.6;
+  line-height: 1.7;
+}
+
+.about strong {
+  color: #9B23EA;
+  font-weight: 600;
+}
+
+/* subtle highlight effect */
+.about p:hover {
+  transform: scale(1.01);
+  transition: 0.3s ease;
 }

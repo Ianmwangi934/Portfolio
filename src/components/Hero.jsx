@@ -19,8 +19,7 @@ const Hero = () => {
           </h2>
 
           <p className="hero-description">
-            I build secure, scalable web applications using Django, DRF, and React —
-            specializing in production-ready APIs, real-time systems, and robust authentication.
+            I build web applications that increase revenue, automate operations and scale businesses.
           </p>
 
           <div className="hero-buttons">

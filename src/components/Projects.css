@@ -33,6 +33,7 @@
   position: relative;
   overflow: hidden;
   border-top: 4px solid #9B23EA;
+  height: 450px
 }
 
 .project-card:hover {
@@ -78,7 +79,7 @@
 
 /* ===== Links ===== */
 .project-links {
-  margin-top: 1.2rem;
+  margin-top: auto;
   display: flex;
   gap: 0.7rem;
   flex-wrap: wrap;
@@ -126,4 +127,11 @@
   color: #444;
   margin-bottom: 0.4rem;
   list-style-type: disc;
+}
+
+.project-content {
+  flex: 1;
+  overflow-y: auto;
+  margin: 1rem 0;
+  padding-right: 6px;
 }

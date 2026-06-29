@@ -33,7 +33,11 @@
   position: relative;
   overflow: hidden;
   border-top: 4px solid #9B23EA;
-  height: 450px
+
+  height: 450px;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover {
@@ -131,7 +135,23 @@
 
 .project-content {
   flex: 1;
+  min-height: 0;
   overflow-y: auto;
   margin: 1rem 0;
   padding-right: 6px;
+}
+
+
+
+.project-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.project-content::-webkit-scrollbar-thumb {
+  background: #b3b3b3;
+  border-radius: 20px;
+}
+
+.project-content::-webkit-scrollbar-thumb:hover {
+  background: #888;
 }

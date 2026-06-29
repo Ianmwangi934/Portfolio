@@ -3,6 +3,20 @@ import "./Projects.css";
 
 const projects = [
   {
+    title: "CareerForge(AI powered Career Development Platform)",
+    description: "A Career Assistant system that helps job seekers to tailor their base resume to match the exact role they are applying to.",
+    tech: "Django,Django Rest Framework, React(vite), Grok Integration, News API integration,react-pdf,PDF.js,PyMuPDF",
+    features: [
+      "Users could upload their base resume, which was parsed and analyzed by AI to identify strengths, missing skills, and areas for improvement.",
+      "Generated job-tailored resumes and cover letters using AI by matching resumes against specific job descriptions and ATS keywords.",
+      "Provided AI-powered mock interviews with personalized technical and behavioral questions, instant feedback, and performance insights."
+    ],
+    links: {
+      github: "https://github.com/Ianmwangi934/Portfolio",
+      demo: "https://youtu.be/Qo54HtD1cgk"
+    }
+  },
+  {
     title: "E-Commerce Store",
     description: "A full-stack fashion e-commerce app with product upload, cart, search, and checkout. Built using Django & React.",
     tech: "Django, React, PostgreSQL, REST API, Vercel,CRM for LEAD management(zoho)",
@@ -59,21 +73,6 @@ const projects = [
     links: {
       github: "https://github.com/Ianmwangi934/Blogpost",
       demo: "https://youtu.be/R8jo6G-zYQQ"
-    }
-  },
-
-  {
-    title: "CareerForge(AI powered Career Development Platform)",
-    description: "A Career Assistant system that helps job seekers to tailor their base resume to match the exact role they are applying to.",
-    tech: "Django,Django Rest Framework, React(vite), Grok Integration, News API integration,react-pdf,PDF.js,PyMuPDF",
-    features: [
-      "Users could upload their base resume, which was parsed and analyzed by AI to identify strengths, missing skills, and areas for improvement.",
-      "Generated job-tailored resumes and cover letters using AI by matching resumes against specific job descriptions and ATS keywords.",
-      "Provided AI-powered mock interviews with personalized technical and behavioral questions, instant feedback, and performance insights."
-    ],
-    links: {
-      github: "https://github.com/Ianmwangi934/Portfolio",
-      demo: "https://youtu.be/Qo54HtD1cgk"
     }
   },
 

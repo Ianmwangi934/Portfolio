@@ -96,7 +96,8 @@ const Projects = () => {
               />
             )}
             <h3>{project.title}</h3>
-            <p>{project.description}</p>
+            <div className="project-content">
+              <p>{project.description}</p>
             {project.features && (
             <ul className="project-features">
               {project.features.map((feature, i) => (
@@ -107,6 +108,9 @@ const Projects = () => {
             <p>
               <strong>Tech Stack:</strong> {project.tech}
             </p>
+
+            </div>
+            
 
             {project.links && (
               <div className="project-links">

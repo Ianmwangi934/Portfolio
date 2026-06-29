@@ -31,7 +31,11 @@
   transition: all 0.3s ease;
   text-align: left;
   position: relative;
-  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+
+  height: 650px; /* Fixed height */
 }
 
 .project-card:hover {
@@ -76,7 +80,7 @@
 
 /* ===== Links ===== */
 .project-links {
-  margin-top: 1.2rem;
+  margin-top: auto;
   display: flex;
   gap: 0.7rem;
   flex-wrap: wrap;
@@ -125,4 +129,11 @@
   color: #444;
   margin-bottom: 0.4rem;
   list-style-type: disc;
+}
+
+.project-content {
+  flex: 1;
+  overflow-y: auto;
+  margin: 1rem 0;
+  padding-right: 6px;
 }
